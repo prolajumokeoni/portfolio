@@ -16,7 +16,7 @@
 .green-background {
   background-color: #36B37F;
   border-radius: 3px;
-  padding: 5px;
+  padding: 10px;
 }
 .about {
   margin: 0 auto;
@@ -35,7 +35,6 @@
   background-repeat: no-repeat;
   height: 600px;
   width: 100%;
-  position: relative;
 }
 
 .works-title {
@@ -51,4 +50,26 @@
   width: 280px;
   height: 170px;
   margin: 0 auto;
+}
+
+.know-me {
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+.main {
+  position: relative;
+}
+
+.about-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50px;
+}
+
+.about-left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
