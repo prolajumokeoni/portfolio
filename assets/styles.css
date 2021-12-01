@@ -1,0 +1,54 @@
+.blue-font {
+  color: #172B4D;
+}
+
+.green-font {
+  color: #36B37E;
+}
+
+.dark-green-font {
+  color: #3A4A42;
+}
+.natural {
+  background-color: #EBF0EE;
+  padding: 5px;
+}
+.green-background {
+  background-color: #36B37F;
+  border-radius: 3px;
+  padding: 5px;
+}
+.about {
+  margin: 0 auto;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.about-me {
+  margin: 0  auto;
+  width: 70%;
+  padding-top: 80px;
+}
+.main-image {
+  background-image: url("./images/mobile-grp.png");
+  background-size: 400px 580px;
+  background-repeat: no-repeat;
+  height: 600px;
+  width: 100%;
+  position: relative;
+}
+
+.works-title {
+  border-bottom: 1px solid #36B37E;
+  border-width: medium;
+}
+.works {
+ margin: 0 auto;
+ width: 80%;
+}
+
+.works-img {
+  width: 280px;
+  height: 170px;
+  margin: 0 auto;
+}
