@@ -24,15 +24,15 @@
           <a class="nav-link text-dark" href="#">Portfolio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-dark" href="#">About</a>
+          <a class="nav-link text-dark" href="#about-me">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-dark" href="#">Contact</a>
+          <a class="nav-link text-dark" href="#contact-me">Contact</a>
         </li>
       </ul>
     </div>
   </nav>
-  <section class="about main-image">
+  <section class="about main-image" id="about-me">
     <div class="about-me text-center">
       <h3 class="pt-5 blue-font font-weight-bolder">Hey there, I'm Priscilla!</h3>
       <h3 class="green-font font-weight-bolder pb-2">I'm a software developer</h3>
@@ -65,7 +65,8 @@
               <small class="card-text natural">CSS</small>
             </div>
             <div class=" text-center pt-3">
-              <a href="https://github.com/prolajumokeoni/Penz_Classes_Frontend" class="green-background link-light">See Project</a>
+              <a href="https://github.com/prolajumokeoni/Penz_Classes_Frontend" class="green-background link-light">See
+                Project</a>
             </div>
         </div>
       </div>
@@ -89,32 +90,104 @@
             </div>
         </div>
       </div>
-        <div class="card mb-2">
-          <img class="works-img"
-            src="https://user-images.githubusercontent.com/69638013/130200810-ab1d8824-2ba4-4c57-b66b-337e4eee0223.png"
-            class="card-img-top" alt="todolist">
-          <div class="card-body">
-            <h4 class="card-title dark-green-font text-center">Todo lists</h5>
-              <div class="text-center">
-                <small class="card-text natural">Javascript</small>
-                <small class="card-text natural">HTML</small>
-                <small class="card-text natural">CSS</small>
-              </div>
-              <div class=" text-center pt-3">
-                <a href="https://github.com/prolajumokeoni/todo-list" class="green-background link-light">See Project</a>
-              </div>
-          </div>
+      <div class="card mb-2">
+        <img class="works-img"
+          src="https://user-images.githubusercontent.com/69638013/130200810-ab1d8824-2ba4-4c57-b66b-337e4eee0223.png"
+          class="card-img-top" alt="todolist">
+        <div class="card-body">
+          <h4 class="card-title dark-green-font text-center">Todo lists</h5>
+            <div class="text-center">
+              <small class="card-text natural">Javascript</small>
+              <small class="card-text natural">HTML</small>
+              <small class="card-text natural">CSS</small>
+            </div>
+            <div class=" text-center pt-3">
+              <a href="https://github.com/prolajumokeoni/todo-list" class="green-background link-light">See Project</a>
+            </div>
         </div>
+      </div>
   </section>
   <section class="know-me text-center">
     <div class="main">
       <h3 class="blue-font text-center pt-5 ">About me</h3>
       <img class="about-right" src="./assets/images/about-right-m.svg" alt="">
       <img class="about-left" src="./assets/images/about-left-m.svg" alt="">
-      <p class="text-center pb-5"> I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
+      <p class="text-center pb-5"> I can help you build a product , feature or website Look through some of my work and
+        experience! If you like what you see and have a project you need coded,
         don’t hestiate to contact me.</p>
-      <button class="btn btn-outline-light green-background" onclick="window.location.href='https://drive.google.com/file/d/1DkZuguUypBXvX8k6_sEqQV0uLXjI-uvO/view';">See Resume</button>
+      <button class="btn btn-outline-light green-background"
+        onclick="window.location.href='https://drive.google.com/file/d/1DkZuguUypBXvX8k6_sEqQV0uLXjI-uvO/view';">See
+        Resume</button>
+    </div>
+  </section>
+
+  <section class="skills">
+    <div class="card-deck">
+      <div class="card mb-2  background-dark text-center">
+        <img src="./assets/images/icon-languages.svg" class="w-50 mx-auto" alt="languages">
+        <div class="card-body">
+          <h4 class="card-title text-center blue-font">Languages</h4>
+          <div class="text-center">
+            <small class="card-text green-font bg-light p-2 rounded">Rails</small>
+            <small class="card-text green-font bg-light p-2 rounded">ReactJS</small>
+            <small class="card-text green-font bg-light p-2 rounded">Redux</small>
+            <small class="card-text green-font bg-light p-2 rounded">HTML</small>
+          </div>
+        </div>
       </div>
+      <div class="card mb-2  background-dark text-center">
+        <div class="card-body">
+          <img src="./assets/images/icon-skills.svg" class="w-50 mx-auto" alt="">
+          <h4 class="card-title text-center blue-font">Skills</h4>
+          <div class="text-center">
+            <small class="card-text green-font bg-light p-2 rounded">ReactJS</small>
+            <small class="card-text green-font bg-light p-2 rounded">Redux</small>
+            <small class="card-text green-font bg-light p-2 rounded">HTML</small>
+            <small class="card-text green-font bg-light p-2 rounded">CSS</small>
+          </div>
+          <div class="modal-dialog modal-fullscreen-sm-down">
+          </div>
+        </div>
+      </div>
+      <div class="card mb-2  background-dark text-center">
+        <div class="card-body p-3">
+          <img src="./assets/images/icon-frameworks.svg" class="w-50 mx-auto" alt="">
+          <h4 class="card-title text-center blue-font">Frameworks</h4>
+          <div class="text-center">
+            <small class="card-text green-font bg-light p-2 rounded">Javascript</small>
+            <small class="card-text green-font bg-light p-2 rounded">HTML</small>
+            <small class="card-text green-font bg-light p-2 rounded">CSS</small>
+          </div>
+        </div>
+      </div>
+  </section>
+  <section class="text-center pt-3" id="contact-me">
+    <h2 class="blue-font w-75 mx-auto">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
+
+    <div class="container">
+      <form>
+        <input type="text" id="username" name="username" placeholder="Your username..">
+
+        <input type="text" id="email" name="email" placeholder="Your email..">
+
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+        <input type="submit" value="Get in touch">
+      </form>
+    </div>
+    <div class="footer">
+      <img class="footer-img" src="./assets/images/illustration-contact-form.svg" alt="img">
+      <div class="icons p-3 footer-icons pb-0">
+        <a href="#"><img class="pl-3" src="./assets/images/twitter.svg" alt="icon"></a>
+        <a href="#"><img class="pl-2" src="./assets/images/Linkedin-icon.svg" alt="icon"></a>
+        <a href="#"><img class="pl-3" src="./assets/images/medium.svg" alt="icon"></a>
+        <a href="#"><img class="pl-3" src="./assets/images/github.svg" alt="icon"></a>
+        <a href="#"><img class="pl-3" src="./assets/images/angellist.svg" alt="icon"></a>
+      </div>
+      <div>
+        <a class="text-muted" href="#">prolajumokeoni@gmail.com</a>
+      </div>
+    </div>
   </section>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
