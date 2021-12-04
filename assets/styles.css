@@ -1,6 +1,5 @@
 html {
   overflow-x: hidden; 
-  max-width: 100%;
 }
 
 .blue-font {
@@ -31,13 +30,14 @@ html {
 
 .about-me {
   margin: 0  auto;
-  width: 70%;
+  width: 60%;
   padding-top: 80px;
 }
 .main-image {
   background-image: url("./images/mobile-grp.png");
-  background-size: 400px 580px;
+  background-size: 350px 580px;
   background-repeat: no-repeat;
+  background-position: center;
   height: 600px;
   width: 100%;
 }
@@ -46,10 +46,12 @@ html {
   border-bottom: 1px solid #36B37E;
   border-width: medium;
 }
+
 .skills,
 .works {
  margin: 0 auto;
- width: 80%;
+ width: 90%;
+ margin-top: 30px;
 }
 
 .works-img {
@@ -88,6 +90,7 @@ html {
   margin: 0 auto;
   width: 90%;
 }
+
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
@@ -132,4 +135,127 @@ input[type=submit]:hover {
 
 .footer-icons {
   margin-top: 40px;
+}
+
+@media (min-width: 410px) {
+  .main-image {
+  width: 100%;
+  background-size: 430px 700px;
+  margin-left: 30px;
+  background-position: center;
+  }
+}
+
+@media (min-width: 465px) {
+  .main-image {
+    background-image: none;
+  }
+
+  #about-me {
+  background-image: url("./images/grp.png");
+  width: 100%;
+  background-size: 500px 550px;
+  background-position: center;
+  }
+  
+  .about-me {
+    padding-top: 0;
+  }
+}
+
+@media (min-width: 410px) {
+  .main-image {
+  width: 100%;
+  background-size: 430px 700px;
+  background-position: center;
+  margin-left: 30px;
+  }
+}
+
+@media (min-width: 465px) {
+  .main-image {
+    background-image: none;
+  }
+
+  .about-me {
+    padding-top: 75px;
+  }
+
+  #about-me {
+  width: 100%;
+  background-size: 600px 550px;
+  background-position: center;
+  }
+}
+
+@media (min-width: 410px) {
+  .main-image {
+  width: 100%;
+  background-size: 430px 700px;
+  margin-left: 30px;
+  }
+}
+
+@media (min-width: 600px) {
+  .main-image {
+    background-image: none;
+    background-position: center;
+  }
+
+  #about-me {
+  background-size: 700px 550px;
+  text-align: center;
+  }
+  
+  .about-me {
+    width: 50%;
+  }
+}
+
+@media (min-width: 600px) {
+  #about-me {
+  background-size: 1300px 800px;
+  text-align: center;
+  }
+  
+  .about-me {
+    width: 45%;
+  }
+
+  .works {
+    padding-top: 40px;
+  }
+
+  .works-img {
+    width: 350px;
+    height: 200px;
+  }
+
+  #contact-me {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+  }
+  .container {
+    width: 70%;
+  }
+
+  .text-container {
+    width: 30%;
+  }
+
+  .know-me {
+    width: 90%;
+  }
+
+  .footer {
+    margin-top: 30px;
+  }
+
+  .footer-text,
+  .icons-3 {
+    margin: 0 auto;
+    width: 20%;
+  }
 }

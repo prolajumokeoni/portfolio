@@ -12,8 +12,8 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand  d-lg-none d-xl-none display-3" href="#">Welcome</a>
+  <nav class="navbar navbar-expand-md navbar-light">
+    <a class="navbar-brand  d-lg-none d-xl-none d-md-none display-3" href="#">Welcome</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
       aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -49,7 +49,8 @@
       </div>
     </div>
   </section>
-  <section class="works">
+  <section class="works mt-5">
+    <h2 class="blue-font text-center pb-3">My recent works</h2>
     <div class="card-deck">
       <div class="card mb-2">
         <img class="works-img"
@@ -81,8 +82,6 @@
               <small class="card-text natural">Redux</small>
               <small class="card-text natural">HTML</small>
               <small class="card-text natural">CSS</small>
-            </div>
-            <div class="modal-dialog modal-fullscreen-sm-down">
             </div>
             <div class=" text-center pt-3">
               <a href="https://github.com/prolajumokeoni/metrics-web" class="green-background link-light">See
@@ -161,9 +160,11 @@
         </div>
       </div>
   </section>
-  <section class="text-center pt-3" id="contact-me">
-    <h2 class="blue-font w-75 mx-auto">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
-
+  <section class="text-center mt-5 mx-auto" id="contact-me">
+    <div class="text-container">
+      <h2 class="blue-font">I'm always interested in hearing about new projects, so if you'd like to chat please
+        get in touch.</h2>
+    </div>
     <div class="container">
       <form>
         <input type="text" id="username" name="username" placeholder="Your username..">
@@ -175,20 +176,20 @@
         <input type="submit" value="Get in touch">
       </form>
     </div>
+  </section>
     <div class="footer">
       <img class="footer-img" src="./assets/images/illustration-contact-form.svg" alt="img">
-      <div class="icons p-3 footer-icons pb-0">
+      <div class="icons icons-3 p-3 footer-icons pb-0">
         <a href="#"><img class="pl-3" src="./assets/images/twitter.svg" alt="icon"></a>
         <a href="#"><img class="pl-2" src="./assets/images/Linkedin-icon.svg" alt="icon"></a>
         <a href="#"><img class="pl-3" src="./assets/images/medium.svg" alt="icon"></a>
         <a href="#"><img class="pl-3" src="./assets/images/github.svg" alt="icon"></a>
         <a href="#"><img class="pl-3" src="./assets/images/angellist.svg" alt="icon"></a>
       </div>
-      <div>
-        <a class="text-muted" href="#">prolajumokeoni@gmail.com</a>
+      <div class="footer-text">
+        <a class="text-muted text-center" href="#">prolajumokeoni@gmail.com</a>
       </div>
     </div>
-  </section>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
 </body>
