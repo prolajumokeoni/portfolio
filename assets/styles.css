@@ -123,7 +123,7 @@ input[type=submit]:hover {
 
 .footer {
   position: relative;
-  margin-bottom: 100px;
+  margin: 100px auto;
 }
 
 .footer-img {
