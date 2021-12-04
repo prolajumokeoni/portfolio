@@ -138,6 +138,9 @@ input[type=submit]:hover {
   margin-top: 40px;
 }
 
+.footer-text {
+  text-align: center;
+}
 @media (min-width: 410px) {
   .main-image {
   width: 100%;
