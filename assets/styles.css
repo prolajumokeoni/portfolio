@@ -46,12 +46,18 @@ html {
   border-bottom: 1px solid #36B37E;
   border-width: medium;
 }
-
+.second-works,
 .skills,
 .works {
- margin: 0 auto;
  width: 90%;
  margin-top: 30px;
+ margin: 0 auto;
+}
+
+.works-img {
+  width: 21rem;
+  height: 18rem;
+  margin: 0 auto;
 }
 
 .know-me {
