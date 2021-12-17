@@ -54,12 +54,6 @@ html {
  margin-top: 30px;
 }
 
-.works-img {
-  width: 280px;
-  height: 170px;
-  margin: 0 auto;
-}
-
 .know-me {
   margin: 0 auto;
   padding-bottom: 30px;
@@ -228,11 +222,6 @@ input[type=submit]:hover {
 
   .works {
     padding-top: 40px;
-  }
-
-  .works-img {
-    width: 350px;
-    height: 200px;
   }
 
   #contact-me {
