@@ -1,27 +1,30 @@
 html {
-  overflow-x: hidden; 
+  overflow-x: hidden;
 }
 
 .blue-font {
-  color: #172B4D;
+  color: #172b4d;
 }
 
 .green-font {
-  color: #36B37E;
+  color: #36b37e;
 }
 
 .dark-green-font {
-  color: #3A4A42;
+  color: #3a4a42;
 }
+
 .natural {
-  background-color: #EBF0EE;
+  background-color: #ebf0ee;
   padding: 5px;
 }
+
 .green-background {
-  background-color: #36B37F;
+  background-color: #36b37f;
   border-radius: 3px;
   padding: 10px;
 }
+
 .about {
   margin: 0 auto;
   width: 100%;
@@ -33,6 +36,7 @@ html {
   width: 60%;
   padding-top: 80px;
 }
+
 .main-image {
   background-image: url("./images/mobile-grp.png");
   background-size: 350px 580px;
@@ -43,21 +47,14 @@ html {
 }
 
 .works-title {
-  border-bottom: 1px solid #36B37E;
+  border-bottom: 1px solid #36b37e;
   border-width: medium;
 }
-.second-works,
-.skills,
-.works {
- width: 90%;
- margin-top: 30px;
- margin: 0 auto;
-}
 
-.works-img {
-  width: 21rem;
-  height: 18rem;
+.skills {
+  width: 90%;
   margin: 0 auto;
+  margin-top: 30px;
 }
 
 .know-me {
@@ -83,7 +80,7 @@ html {
 }
 
 .background-dark {
-  background-color: #EBF0EE;
+  background-color: #ebf0ee;
 }
 
 .contact-form {
@@ -91,7 +88,9 @@ html {
   width: 90%;
 }
 
-input[type=text], select, textarea {
+input[type=text],
+select,
+textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -103,7 +102,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #04AA6D;
+  background-color: #04aa6d;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -141,12 +140,13 @@ input[type=submit]:hover {
 .footer-text {
   text-align: center;
 }
+
 @media (min-width: 410px) {
   .main-image {
-  width: 100%;
-  background-size: 430px 700px;
-  margin-left: 30px;
-  background-position: center;
+    width: 100%;
+    background-size: 430px 700px;
+    margin-left: 30px;
+    background-position: center;
   }
 }
 
@@ -156,12 +156,12 @@ input[type=submit]:hover {
   }
 
   #about-me {
-  background-image: url("./images/grp.png");
-  width: 100%;
-  background-size: 500px 550px;
-  background-position: center;
+    background-image: url("./images/grp.png");
+    width: 100%;
+    background-size: 500px 550px;
+    background-position: center;
   }
-  
+
   .about-me {
     padding-top: 0;
   }
@@ -169,10 +169,10 @@ input[type=submit]:hover {
 
 @media (min-width: 410px) {
   .main-image {
-  width: 100%;
-  background-size: 430px 700px;
-  background-position: center;
-  margin-left: 30px;
+    width: 100%;
+    background-size: 430px 700px;
+    background-position: center;
+    margin-left: 30px;
   }
 }
 
@@ -186,17 +186,17 @@ input[type=submit]:hover {
   }
 
   #about-me {
-  width: 100%;
-  background-size: 600px 550px;
-  background-position: center;
+    width: 100%;
+    background-size: 600px 550px;
+    background-position: center;
   }
 }
 
 @media (min-width: 410px) {
   .main-image {
-  width: 100%;
-  background-size: 430px 700px;
-  margin-left: 30px;
+    width: 100%;
+    background-size: 430px 700px;
+    margin-left: 30px;
   }
 }
 
@@ -207,10 +207,10 @@ input[type=submit]:hover {
   }
 
   #about-me {
-  background-size: 700px 550px;
-  text-align: center;
+    background-size: 700px 550px;
+    text-align: center;
   }
-  
+
   .about-me {
     width: 50%;
   }
@@ -218,10 +218,10 @@ input[type=submit]:hover {
 
 @media (min-width: 600px) {
   #about-me {
-  background-size: 1300px 800px;
-  text-align: center;
+    background-size: 1300px 800px;
+    text-align: center;
   }
-  
+
   .about-me {
     width: 45%;
   }
@@ -236,6 +236,7 @@ input[type=submit]:hover {
     margin: 0 auto;
     align-items: center;
   }
+
   .container {
     width: 70%;
   }
@@ -258,4 +259,3 @@ input[type=submit]:hover {
     width: 20%;
   }
 }
-
