@@ -53,9 +53,14 @@ html {
 }
 
 .skills {
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
   margin-top: 30px;
+}
+
+.main-projects {
+  width: 90%;
+  margin: 0 auto;
 }
 
 .know-me {
@@ -157,6 +162,6 @@ input[type=submit]:hover {
   .about-me {
     width: 40%;
     margin: 0 auto;
-  }
+  } 
 }
  
