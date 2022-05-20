@@ -62,7 +62,7 @@
       <p class="text-center pb-5 w-75 mx-auto"> I can help you build a product , feature or website Look through some of my work and
         experience! If you like what you see and have a project you need coded,
         don’t hestiate to contact me.</p>
-      <button type="button" class="btn btn-outline-light green-background  mx-auto"
+      <button type="button" id="btnClick" class="btn btn-outline-light green-background  mx-auto"
         onclick="window.location.href='https://docs.google.com/document/d/1k9W0bm-8P2PnU0vSbfbCAB1RBPQ0BGHh/edit?usp=sharing&ouid=112191945282529855746&rtpof=true&sd=true';">See
         Resume</button>
     </div>
@@ -109,26 +109,34 @@
       
     </div>
   </section>
-  <section class="text-center mt-5 mx-auto" id="contact-me">
+  <section class="text-center mt-5 mx-auto contact-form" id="contact-me">  
     <div class="text-container">
       <h2 class="blue-font">I'm always interested in hearing about new projects, so if you'd like to chat please
         get in touch.</h2>
     </div>
-    <div class="container">
+    <div class="container text-left-lg">
       <form action="https://formspree.io/f/mnqwpnrw" method="post">
 
-        <input type="text" id="email" name="email" placeholder="Your email..">
+        <input type="text" id="email" name="email" placeholder="Your email.." required>
 
-        <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+        <textarea id="subject" name="subject" placeholder="Write something.." required></textarea>
 
         <input type="submit" value="Get in touch">
       </form>
     </div>
   </section>
+  <div class="img-cont">
+    <div>
+    <img class="icon-img" src="./assets/images/left-iconz.png" alt="icon">
+    <img class="icon-img" src="./assets/images/leftframe.png" alt="icon">
+  </div>
+  <div class="">
+  <img class="icon-img" src="./assets/images/form-rightimg.png" alt="img">
+  </div>
+  </div>
     <footer class="footer">
-    <div class="footer fixed-bottom">
-      <img class="footer-img" src="./assets/images/illustration-contact-form.svg" alt="img">
-      <div class="icons icons-3 p-3 text-center footer-icons pb-0">
+    <div class="footer">
+      <div class="icons-3 p-3 text-center footer-icons pb-0">
         <a href="https://twitter.com/prolajumokeoni"><img class="pl-3" src="./assets/images/twitter.svg" alt="icon"></a>
         <a href="https://www.linkedin.com/in/prolajumokeoni/"><img class="pl-2" src="./assets/images/Linkedin-icon.svg" alt="icon"></a>
         <a href="https://medium.com/@prolajumokeoni"><img class="pl-3" src="./assets/images/medium.svg" alt="icon"></a>

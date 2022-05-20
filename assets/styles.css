@@ -120,31 +120,35 @@ input[type=submit]:hover {
   background-color: #45a049;
 }
 
+.contact-form {
+  position: relative;
+  width: 80%;
+}
+
 .container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
+  border-radius: 5px; 
   padding: 20px;
+}
+.img-cont {
+  display: none;
 }
 
 .footer {
-  position: relative;
-  margin: 100px auto;
+  margin: 0 auto;
+  margin-top: 30px;
 }
 
-.footer-img {
-  width: 50px;
-  height: 80px;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
 
-.footer-icons {
-  margin-top: 40px;
+.footer {
+  padding-top: 50px;
 }
 
 .footer-text {
   text-align: center;
+}
+
+.icons-3 {
+  border-top: 1px solid gray;
 }
 
 @media (max-width:320px) {
@@ -163,5 +167,19 @@ input[type=submit]:hover {
     width: 40%;
     margin: 0 auto;
   } 
+  .contact-form {
+    display: flex;
+  }
+
+  .img-cont {
+    margin-top: -150px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .icon-img {
+    width: 150px;
+    height: 150px;
+  }
 }
- 
+  
