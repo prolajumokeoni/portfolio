@@ -1,28 +1,6 @@
 html {
   overflow-x: hidden;
 }
-.backdrop {
-  display: none;
-  position: fixed;
-  background: rgba(0, 0, 0, 0.5);
-  top: 0;
-  height: 100vh;
-  width: 100vw;
-  z-index: 1;
-}
-
-.modal {
-  display: none;
-  position: fixed;
-  background: white;
-  padding: 10px;
-  width: 260px;
-  top: 100px;
-  left: calc(50% - 140px);
-  z-index: 1;    
-}
-
-
 
 .blue-font {
   color: #172b4d;
@@ -37,7 +15,7 @@ html {
 }
 
 .natural {
-  background-color: #ebf0ee;
+  background-color: #EBF0EE;
   padding: 5px;
 }
 
@@ -69,6 +47,66 @@ html {
   width: 100%;
 }
 
+.backdrop {
+  display: none;
+  position: fixed;
+  background: #C1C7D0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  border-radius: 5px;
+}
+
+.modal {
+  display: none;
+  position: absolute;
+  background: white;
+  width: 90%;
+  height: 600px;
+  margin-top: 30px;
+  margin: 0 auto;
+  top: 10px; 
+  z-index: 1;    
+  border-radius: 5px;
+}
+
+.card-img {
+  width: 350px;
+  height: 400px;
+}
+
+.popupcard-img {
+  margin-top: 10px;
+  width: 95%;
+  height: 250px;
+}
+
+.close {
+  position: absolute;
+  right: 10px;
+  color: #45a049;
+}
+
+.colorBtn {
+  color: white;
+ background-color: #36B37E;
+ border: none;
+ padding: 6px 12px;
+border-radius: 8px;
+border: 1px solid #008552;
+}
+
+.colorBtn:active {
+  background-color: #008552;
+  transform: translateY(4px);
+}
+.colorBtn:hover {
+  background-color: #45a049;
+}
 .works-title {
   border-bottom: 1px solid #36b37e;
   border-width: medium;
@@ -85,14 +123,6 @@ html {
   margin: 0 auto;
 }
 
-.card-img {
-  width: 350px;
-  height: 400px;
-}
-
-.popupcard-img {
-  width: 100px;
-}
 .know-me {
   margin: 0 auto;
   padding-bottom: 30px;
