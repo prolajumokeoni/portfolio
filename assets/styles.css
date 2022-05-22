@@ -241,5 +241,20 @@ input[type=submit]:hover {
     width: 150px;
     height: 150px;
   }
+
+  .popupcard-img {
+    width: 75%;
+    height: 60%;
+    margin-top: 30px;
+  }
+
+  .modal {
+    height: 720px;
+    overflow-y: auto;
+  }
+
+  .close {
+    font-size: 50px;
+  }
 }
 

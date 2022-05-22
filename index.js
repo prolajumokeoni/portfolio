@@ -5,8 +5,7 @@ const project = [
     image: "../assets/images/cryptopopup.png",
     title: "Crypto App",
     framework: "React",
-    description:
-    "Crypto app is an application where users can get information about the crypto market, exchange rates & news",
+    description: "Crypto app is an application where users can get information about the crypto market, exchange rates & news",
     live: "https://6274fd2b09ac785e9138b4aa--prcryptoapp.netlify.app/",
     source: "https://github.com/prolajumokeoni/crypto-app",
   },
