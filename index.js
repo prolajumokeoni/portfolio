@@ -66,32 +66,46 @@ for (let i = 0; i < project.length; i++) {
 	<small class="blue-font font-weight-bold bg-light m-3 p-2 rounded">Html</small>
 	<small class="blue-font font-weight-bold bg-light m-3 p-2 rounded">Css</small> 
 	</div>  
-  <button onclick="openModal()" class="colorBtn mx-auto" type="button">See project</button>
+  <button onclick="openModal(project)" class="colorBtn mx-auto" type="button">See project</button>
   <div onclick="closeModal()" class="backdrop">
-    <div class="modal">
-      <span onclick="closeModal()" class="close p-2">&times;</span>
-      <img class="popupcard-img" src="${project[i].image}">
-      <h3 class="pt-3">${project[i].title}</h3> 
-      <div  class="d-flex text-center justify-content-center"> 
-      <small class="blue-font font-weight-bold bg-light m-3 p-2 rounded">${project[i].framework}</small>
-      <small class="blue-font font-weight-bold bg-light m-3 p-2 rounded">Javascript</small>
-      <small class="blue-font font-weight-bold bg-light m-3 p-2 rounded">Html</small>
-      <small class="blue-font font-weight-bold bg-light m-3 p-2 rounded">Css</small> 
-      </div>  
-        <p>${project[i].description}</p>
-        <button class="colorBtn" onclick="window.location.href='${project[i].live}';">See live <img  src="../assets/images/popuparrow.png"></button>
-        <button class="colorBtn" onclick="window.location.href='${project[i].source}';"> See source <img  src="../assets/images/gitpopup.png"></button>
-
+    <div class="modal" id="contentBody">
+      
     </div>
   </div>`;
 }
 
+
 let backdrop = document.querySelector(".backdrop");
 let modal = document.querySelector(".modal");
+ 
 
-function openModal() {
-  backdrop.style.display = "block";
-  modal.style.display = "block";
+function openModal(projectName) {
+  let projectObj = null;
+  project.forEach((obj) => {
+    if (obj.title == projectName)
+        projectObj = obj;
+  });
+
+
+
+let contentBody = `<span onclick="closeModal()" class="close p-2">&times;</span>
+<img class="popupcard-img" src="${projectObj[i].image}">
+<h3 class="pt-3">${projectObj[i].title}</h3> 
+<div  class="d-flex text-center justify-content-center"> 
+<small class="blue-font font-weight-bold bg-light m-3 p-2 rounded">${projectObj[i].framework}</small>
+<small class="blue-font font-weight-bold bg-light m-3 p-2 rounded">Javascript</small>
+<small class="blue-font font-weight-bold bg-light m-3 p-2 rounded">Html</small>
+<small class="blue-font font-weight-bold bg-light m-3 p-2 rounded">Css</small> 
+</div>  
+  <p>${projectObj[i].description}</p>
+  <button class="colorBtn" onclick="window.location.href='${projectObj[i].live}';">See live <img  src="../assets/images/popuparrow.png"></button>
+  <button class="colorBtn" onclick="window.location.href='${projectObj[i].source}';"> See source <img  src="../assets/images/gitpopup.png"></button>
+`
+document.getElementById("contentBody").innerHTML = contentBody;
+backdrop.style.display = "block";
+modal.style.display = "block";
+
+
 }
 
 function closeModal() {
