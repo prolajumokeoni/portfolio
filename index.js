@@ -2,7 +2,7 @@ const projectCard = document.getElementById("project");
 
 const project = [
   {
-    image: "../assets/images/cryptopopup.png",
+    image: "/assets/images/cryptopopup.png",
     title: "Crypto App",
     framework: "React",
     description: "Crypto app is an application where users can get information about the crypto market, exchange rates & news",
@@ -10,7 +10,7 @@ const project = [
     source: "https://github.com/prolajumokeoni/crypto-app",
   },
   {
-    image: "../assets/images/metricspopup.png",
+    image: "/assets/images/metricspopup.png",
     title: "Metrics Web",
     framework: "React",
     description: "Metrics-Web is a single page application and API based website that displays two pages. The Home page, where you can see, top 12 posts titles. And the Posts page, where you can get more details on a blog posts.",
@@ -18,7 +18,7 @@ const project = [
     source: "https://github.com/prolajumokeoni/metrics-web",
   },
   {
-    image: "../assets/images/penzpopup.png",
+    image: "/assets/images/penzpopup.png",
     title: "Penz Classes",
     framework: "React",
     description: "An online class app that allows users to see all available courses, reserve a spot in a class, see all reservations, add and delete courses",
