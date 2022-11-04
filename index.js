@@ -11,12 +11,12 @@ const project = [
     source: "https://github.com/prolajumokeoni/crypto-app",
   },
   {
-    image: "./assets/images/metricspopup.png",
+    image: "./assets/images/prometrics.png",
     title: "Metrics Web",
     framework: "React",
     description:
       "Metrics-Web is a single page application and API based website that displays two pages. The Home page, where you can see, top 12 posts titles. And the Posts page, where you can get more details on a blog posts.",
-    live: "https://6274fd2b09ac785e9138b4aa--prcryptoapp.netlify.app/",
+    live: "https://prometrics.herokuapp.com/",
     source: "https://github.com/prolajumokeoni/metrics-web",
   },
   {
