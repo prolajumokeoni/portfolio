@@ -78,7 +78,7 @@ html {
   width: 350px;
   height: 400px;
 }
- 
+
 .popupcard-img {
   width: 100%;
 }
@@ -123,8 +123,7 @@ html {
 }
 
 .know-me {
-  margin: 0 auto;
-  padding-bottom: 30px;
+  padding: 120px 0;
 }
 
 .main {
@@ -133,9 +132,8 @@ html {
 
 .about-right {
   position: absolute;
-  top: 0;
+  bottom: 0;
   right: 0;
-  width: 50px;
 }
 
 .about-left {
