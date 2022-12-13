@@ -11,6 +11,8 @@ My portfolio project!
 
 - GIT
 
+# Live Demo
+  [Live version](https://prolajumokeoni.github.io/portfolio/)
 ### To get a local copy up and running follow these simple steps.
 
 - You can clone this repo by typing `git clone https://github.com/prolajumokeoni/portfolio` on your terminal.
@@ -18,7 +20,7 @@ My portfolio project!
 - Type `cd portfolio` to access the project on the terminal.
 
 ## 👩🏿‍🏫Author
-### **Oni Olajumuke Priscilla**
+### **Oni Olajumoke Priscilla**
 
 - Github [@githubhandle](https://github.com/prolajumokeoni)
 - Twitter [@twitterhandle](https://twitter.com/prolajumokeoni)
