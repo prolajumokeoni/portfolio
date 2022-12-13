@@ -54,7 +54,7 @@ html {
   top: 0;
   height: 100%;
   width: 100%;
-  margin: 0 auto;
+  margin: auto;
   z-index: 1;
   left: 0;
   right: 0;
@@ -65,13 +65,16 @@ html {
   display: none;
   position: absolute;
   background: white;
-  width: 90%;
-  height: 600px;
-  margin: 0 auto;
-  margin-top: 30px;
-  top: 10px;
+  width: 80%;
+  height: calc(100% - 10%);
+  margin: auto;
   z-index: 1;
   border-radius: 5px;
+}
+
+.main-body {
+  display: block;
+  padding: 5px;
 }
 
 .card-img {
@@ -88,7 +91,10 @@ html {
   right: 10px;
   color: #45a049;
 }
-
+.close:hover {
+font-size: 50px;
+color: red;
+}
 .colorBtn {
   color: white;
   background-color: #36b37e;
@@ -241,8 +247,7 @@ input[type=submit]:hover {
     margin-top: 30px;
   }
 
-  .modal {
-    height: 720px;
+  .modal { 
     overflow-y: auto;
   }
 

@@ -71,7 +71,6 @@ for (let i = 0; i < project.length; i++) {
   <button onclick="openModal('${project[i].title}')" class="colorBtn mx-auto" type="button">See project</button>
   <div onclick="closeModal()" class="backdrop">
     <div class="modal" id="contentBody">
-      
     </div>
   </div>`;
 }
@@ -85,18 +84,21 @@ function openModal(projectName) {
     if (obj.title === projectName) projectObj = obj;
   });
 
-  const contentBody = `<span onclick="closeModal()" class="close p-2">&times;</span>
+  const contentBody = `
+  <span onclick="closeModal()" class="close p-2">&times;</span>
+  <div class="main-body">
   <img class="popupcard-img" src="${projectObj.image}">
   <h3 class="pt-3">${projectObj.title}</h3> 
   <div  class="d-flex text-center justify-content-center"> 
-  <small class="blue-font font-weight-bold bg-light m-3 p-2 rounded">${projectObj.framework}</small>
-  <small class="blue-font font-weight-bold bg-light m-3 p-2 rounded">Javascript</small>
-  <small class="blue-font font-weight-bold bg-light m-3 p-2 rounded">Html</small>
-  <small class="blue-font font-weight-bold bg-light m-3 p-2 rounded">Css</small> 
+  <small class="blue-font font-weight-bold bg-light m-2 p-1 rounded">${projectObj.framework}</small>
+  <small class="blue-font font-weight-bold bg-light m-2 p-1 rounded">Javascript</small>
+  <small class="blue-font font-weight-bold bg-light m-2 p-1 rounded">Html</small>
+  <small class="blue-font font-weight-bold bg-light m-2 p-1 rounded">Css</small> 
   </div>  
     <p>${projectObj.description}</p>
-    <a class="colorBtn" href='${projectObj.live}' target="_blank">See live <img  src="../assets/images/popuparrow.png"></a>
-    <button class="colorBtn" href='${projectObj.source}';"> See source <img  src="../assets/images/gitpopup.png"></button>`;
+    <a class="colorBtn" href='${projectObj.live}' target="_blank">See live <img  src="./assets/images/popuparrow.png"></a>
+    <button class="colorBtn" href='${projectObj.source}';"> See source <img  src="./assets/images/gitpopup.png"></button>
+    </div>`;
 
   document.getElementById('contentBody').innerHTML = contentBody;
   backdrop.style.display = 'block';

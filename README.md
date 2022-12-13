@@ -13,7 +13,8 @@ My portfolio project!
 
 # Live Demo
   [Live version](https://prolajumokeoni.github.io/portfolio/)
-### To get a local copy up and running follow these simple steps.
+  
+# To get a local copy up and running follow these simple steps.
 
 - You can clone this repo by typing `git clone https://github.com/prolajumokeoni/portfolio` on your terminal.
 
