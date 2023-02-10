@@ -97,7 +97,7 @@ function openModal(projectName) {
   </div>  
     <p>${projectObj.description}</p>
     <a class="colorBtn" href='${projectObj.live}' target="_blank">See live <img  src="./assets/images/popuparrow.png"></a>
-    <button class="colorBtn" href='${projectObj.source}';"> See source <img  src="./assets/images/gitpopup.png"></button>
+    <a class="colorBtn" href='${projectObj.source}' target="_blank"> See source <img  src="./assets/images/gitpopup.png"></a>
     </div>`;
 
   document.getElementById('contentBody').innerHTML = contentBody;
