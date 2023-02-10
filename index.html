@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+    integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/styles.css">
+  <title>Priscilla Portfolio</title>
+</head>
+
+<body>
+   
+  <nav class="navbar navbar-expand-md navbar-light">
+    <a href="#" class="navbar-brand d-lg-none d-xl-none d-md-none display-3" >Welcome</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="#">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="#about-me">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="#contact-me">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <section class="about main-image" id="about-me">
+    <div class="about-me text-center">
+      <h3 class="pt-5 blue-font font-weight-bolder">Hey there, I'm</h3>
+      <h1> Priscilla!</h1>
+      <h3 class="green-font font-weight-bolder pb-2">I'm a software developer</h3>
+      <p class="blue-font"> I can help you build a product , feature or website Look through some of my work and
+        experience! If you like
+        what you see and have a project you need coded,
+        don’t hestiate to contact me.</p>
+      <div class="icons p-3 pb-0">
+        <a href="https://twitter.com/prolajumokeoni" target="_blank" rel="noopener"><img class="pl-3"  src="./assets/images/twitter.svg" alt="icon"></a>
+        <a href="https://www.linkedin.com/in/prolajumokeoni/" target="_blank" rel="noopener"><img class="pl-2" src="./assets/images/Linkedin-icon.svg" alt="icon"></a>
+        <a href="https://medium.com/@prolajumokeoni" target="_blank" rel="noopener"><img class="pl-3" src="./assets/images/medium.svg" alt="icon"></a>
+        <a href="https://github.com/prolajumokeoni" target="_blank" rel="noopener"><img class="pl-3" src="./assets/images/github.svg" alt="icon"></a>
+        <a href="https://angel.co/u/olajumoke-priscilla-oni" target="_blank" rel="noopener"><img class="pl-3" src="./assets/images/angellist.svg" alt="icon"></a>
+      </div>
+    </div>
+  </section> 
+  <section class="main-projects">
+  <h2 class="text-center">My Recents Works</h2>
+  <div id="myProjects" class="row text-center mx-auto center-projects justify-content-center"></div>
+  </section>
+  <main class="know-me text-center">
+    <div class="main">
+      <h3 class="blue-font text-center pt-5 w-50 mx-auto">About me</h3>
+      <img class="about-right" src="./assets/images/about-right-m.svg" alt="">
+      <img class="about-left" src="./assets/images/about-left-m.svg" alt="">
+      <p class="text-center pb-5 w-75 mx-auto"> I can help you build a product , feature or website Look through some of my work and
+        experience! If you like what you see and have a project you need coded,
+        don’t hestiate to contact me.</p>
+      <button type="button"  class="colorBtn mx-auto"
+        onclick="window.location.href='https://docs.google.com/document/d/1k9W0bm-8P2PnU0vSbfbCAB1RBPQ0BGHh/edit?usp=sharing&ouid=112191945282529855746&rtpof=true&sd=true';">See
+        Resume</button>
+    </div>
+  </main>
+  <section class="skills">
+    <div class="card-deck">
+      <div class="card mb-2  background-dark text-center">
+        <img src="./assets/images/icon-languages.svg" class="w-50 mx-auto" alt="languages">
+        <div class="card-body">
+          <h4 class="card-title text-center blue-font">Languages</h4>
+          <div class="text-center">
+            <small class="card-text green-font bg-light p-2 rounded">Rails</small>
+            <small class="card-text green-font bg-light p-2 rounded">ReactJS</small>
+            <small class="card-text green-font bg-light p-2 rounded">Redux</small>
+            <small class="card-text green-font bg-light p-2 rounded">HTML</small>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-2  background-dark text-center">
+        <div class="card-body">
+          <img src="./assets/images/icon-skills.svg" class="w-50 mx-auto" alt="">
+          <h4 class="card-title text-center blue-font">Skills</h4>
+          <div class="text-center">
+            <small class="card-text green-font bg-light p-2 rounded">ReactJS</small>
+            <small class="card-text green-font bg-light p-2 rounded">Redux</small>
+            <small class="card-text green-font bg-light p-2 rounded">HTML</small>
+            <small class="card-text green-font bg-light p-2 rounded">CSS</small>
+          </div>
+          <div class="modal-dialog modal-fullscreen-sm-down">
+          </div>
+        </div>
+      </div>
+      <div class="card mb-2  background-dark text-center">
+        <div class="card-body p-3">
+          <img src="./assets/images/icon-frameworks.svg" class="w-50 mx-auto" alt="">
+          <h4 class="card-title text-center blue-font">Frameworks</h4>
+          <div class="text-center">
+            <small class="card-text green-font bg-light p-2 rounded">Javascript</small>
+            <small class="card-text green-font bg-light p-2 rounded">HTML</small>
+            <small class="card-text green-font bg-light p-2 rounded">CSS</small>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+  <section class="text-center mt-5 mx-auto contact-form" id="contact-me">  
+    <div class="text-container">
+      <h2 class="blue-font">I'm always interested in hearing about new projects, so if you'd like to chat please
+        get in touch.</h2>
+    </div>
+    <div class="container text-left-lg">
+      <form action="https://formspree.io/f/mnqwpnrw" method="post">
+
+        <input type="text" id="email" name="email" placeholder="Your email.." required>
+
+        <textarea id="subject" name="subject" placeholder="Write something.." required></textarea>
+
+        <input type="submit" value="Get in touch">
+      </form>
+    </div>
+  </section>
+  <div class="img-cont">
+    <div>
+    <img class="icon-img" src="./assets/images/left-iconz.png" alt="icon">
+    <img class="icon-img" src="./assets/images/leftframe.png" alt="icon">
+  </div>
+  <div class="">
+  <img class="icon-img" src="./assets/images/form-rightimg.png" alt="img">
+  </div>
+  </div>
+    <footer class="footer">
+    <div class="footer">
+      <div class="icons-3 p-3 text-center footer-icons pb-0">
+        <a href="https://twitter.com/prolajumokeoni"><img class="pl-3" src="./assets/images/twitter.svg" alt="icon"></a>
+        <a href="https://www.linkedin.com/in/prolajumokeoni/"><img class="pl-2" src="./assets/images/Linkedin-icon.svg" alt="icon"></a>
+        <a href="https://medium.com/@prolajumokeoni"><img class="pl-3" src="./assets/images/medium.svg" alt="icon"></a>
+        <a href="https://github.com/prolajumokeoni"><img class="pl-3" src="./assets/images/github.svg" alt="icon"></a>
+        <a href="https://angel.co/u/olajumoke-priscilla-oni"><img class="pl-3" src="./assets/images/angellist.svg" alt="icon"></a>
+      </div>
+      <div class="footer-text">
+        <a class="text-muted text-center" href="#">prolajumokeoni@gmail.com</a>
+      </div>
+    </div>
+    </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

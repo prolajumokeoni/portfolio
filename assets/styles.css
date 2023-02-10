@@ -1,0 +1,259 @@
+html {
+  overflow-x: hidden;
+}
+
+.blue-font {
+  color: #172b4d;
+}
+
+.green-font {
+  color: #36b37e;
+}
+
+.dark-green-font {
+  color: #3a4a42;
+}
+
+.natural {
+  background-color: #ebf0ee;
+  padding: 5px;
+}
+
+.green-background {
+  background-color: #36b37f;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+.about {
+  margin: 0 auto;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.about-me {
+  margin: 0  auto;
+  width: 60%;
+  padding-top: 80px;
+}
+
+.main-image {
+  background-image: url("./images/mobile-grp.png");
+  margin: 0 auto;
+  background-size: 95%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 600px;
+  width: 100%;
+}
+
+.backdrop {
+  display: none;
+  position: fixed;
+  background: #c1c7d0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  border-radius: 5px;
+}
+
+.modal {
+  display: none;
+  position: absolute;
+  background: white;
+  width: 80%;
+  height: calc(100% - 10%);
+  margin: auto;
+  z-index: 1;
+  border-radius: 5px;
+}
+
+.main-body {
+  display: block;
+  padding: 5px;
+}
+
+.card-img {
+  width: 350px;
+  height: 400px;
+}
+
+.popupcard-img {
+  width: 100%;
+}
+
+.close {
+  position: absolute;
+  right: 10px;
+  color: #45a049;
+}
+
+.close:hover {
+  font-size: 50px;
+  color: red;
+}
+
+.colorBtn {
+  color: white;
+  background-color: #36b37e;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 8px;
+}
+
+.colorBtn:active {
+  background-color: #008552;
+  transform: translateY(4px);
+}
+
+.colorBtn:hover {
+  background-color: #45a049;
+}
+
+.works-title {
+  border-bottom: 1px solid #36b37e;
+  border-width: medium;
+}
+
+.skills {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.main-projects {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.know-me {
+  padding: 120px 0;
+}
+
+.main {
+  position: relative;
+}
+
+.about-right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.about-left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.background-dark {
+  background-color: #ebf0ee;
+}
+
+.contact-form {
+  margin: 0 auto;
+  position: relative;
+  width: 80%;
+}
+
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04aa6d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.img-cont {
+  display: none;
+}
+
+.footer {
+  margin: 0 auto;
+  margin-top: 30px;
+  padding-top: 50px;
+}
+
+.footer-text {
+  text-align: center;
+}
+
+.icons-3 {
+  border-top: 1px solid gray;
+}
+
+@media (max-width: 320px) {
+  body {
+    width: 350px;
+    margin-left: 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  .main-image {
+    background-image: url("./images/grp.png");
+    background-size: 90% 100%;
+    height: 800px;
+  }
+
+  .about-me {
+    width: 40%;
+    margin: 0 auto;
+  }
+
+  .contact-form {
+    display: flex;
+  }
+
+  .img-cont {
+    margin-top: -150px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .icon-img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .popupcard-img {
+    width: 75%;
+    height: 60%;
+    margin-top: 30px;
+  }
+
+  .modal {
+    overflow-y: auto;
+  }
+
+  .close {
+    font-size: 50px;
+  }
+}
