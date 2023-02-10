@@ -5,8 +5,8 @@ const project = [
     framework: 'React',
     description:
       'Music player is a fullstack app with features like playlists, audio player, shuffle.',
-    live: 'https://github.com/prolajumokeoni/musicplayer.git',
-    source: 'https://github.com/prolajumokeoni/musicplayer.git',
+    live: 'https://musicplayer-git-musicplayer-prolajumokeoni.vercel.app/signin',
+    source: 'https://github.com/prolajumokeoni/musicplayer',
   },
   {
     image: './assets/images/cryptopopup.png',
@@ -104,7 +104,7 @@ function openModal(projectName) {
   backdrop.style.display = 'block';
   modal.style.display = 'block';
 }
-
+//disable eslint
 function closeModal() {
   backdrop.style.display = 'none';
   modal.style.display = 'none;';

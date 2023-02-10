@@ -91,10 +91,12 @@ html {
   right: 10px;
   color: #45a049;
 }
+
 .close:hover {
-font-size: 50px;
-color: red;
+  font-size: 50px;
+  color: red;
 }
+
 .colorBtn {
   color: white;
   background-color: #36b37e;
@@ -247,7 +249,7 @@ input[type=submit]:hover {
     margin-top: 30px;
   }
 
-  .modal { 
+  .modal {
     overflow-y: auto;
   }
 
